@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <style>
+        *{
+            flex-wrap: wrap;
+        }
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        h1 {
+            margin-top: 1%;
+            font-size: 380%;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgb(3, 3, 41);
+            font-family: poppins;
+            color: white;
+            margin-top: 0%;
+            scroll-behavior: smooth;
+            text-align: center;
+        }
+
+        .navi {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            background-color: rgb(7, 7, 70);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 1.4375rem;
+            margin-bottom: 0%;
+        }
+
+        .nme {
+            margin: 0px;
+            margin-bottom: 0.0625rem;
+            letter-spacing: 0.0625rem;
+            word-spacing: 0.625rem;
+            justify-content: center;
+            border: 0.125rem solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* content vertically center */
+            align-items: flex-start;
+            /* content horizontally center */
+            box-sizing: content-box;
+            /* border ko height me include kare */
+            width: auto;
+            background-color: rgb(3, 3, 41);
+            padding: 0rem;
+        }
+
+        main {
+            text-align: center;
+            font-size: xx-large;
+            margin: 0%;
+        }
+
+        img {
+            margin-top: 1.875rem;
+            border: 0.1875rem solid white;
+            border-radius: 4.375rem;
+            transition: 170ms ease-in-out;
+        }
+
+        img:hover {
+            scale: 1.10;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .right {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .futu {
+            color: rgb(231, 233, 181);
+        }
+
+        #about {
+            text-align: center;
+            height: 70vh;
+            border: 0.1875rem solid white;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            background-color: rgb(5, 5, 52);
+        }
+
+
+        #home {
+            /* border: 3px solid white; */
+            margin-top: 0%;
+            height: 60vh;
+            margin-bottom: 5%;
+        }
+
+        .work {
+            align-items: flex-end;
+
+        }
+
+        #projects {
+            text-align: center;
+            height: 70vh;
+            border: 0.1875rem solid white;
+            margin-top: 0%;
+            margin-bottom: 5%;
+            background-color: rgb(5, 5, 52);
+
+        }
+
+        #contact {
+            text-align: center;
+            height: 60vh;
+            border: 0.1875rem solid white;
+            margin-top: 0%;
+            background-color: rgb(1, 1, 59);
+        }
+
+        #sec {
+            margin: 0%;
+            height: 100vh;
+            /* margin-top: 100px; */
+        }
+
+        .con {
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        span {
+            color: rgb(238, 53, 53);
+        }
+
+        .cont {
+            font-size: xx-large;
+            text-align: center;
+            text-decoration: underline
+        }
+
+        /* Smooth scrolling ke liye */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Navbar ki height ke hisaab se scroll offset */
+        section,
+        #about,
+        #projects,
+        #contact,
+        #home {
+            scroll-margin-top: 9.375rem;
+            /* Adjust kar le agar thoda zyada ya kam lagta hai */
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- INFO-->
+    <header>
+        <div class="first">
+            <nav>
+                <div class="nme">| Name : Harsh Raj | Rollno. : 05 | Division : 1A2 | UGno. : 25UG050797
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebDesg
+                    Assignment : Portfolio (Harsh's Portfolio) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Submitted to  : Asst. Prof. AliAsgar Jiwani sir😊</div>
+                <div class="navi">
+                    <ul>
+                        <li><a href="#home"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a></li>
+                        <li><a href="#about"><i class="fa fa-info"></i>&nbsp;&nbsp;About me</a></li>
+                        <li><a href="#projects"><i class="fa fa-gears"></i>&nbsp;&nbsp;Projects</a></li>
+                        <li><a href="#contact"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;Contact me</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+<!-- HOME -->
+<section id="sec">
+    <div id="home">
+        <main>
+            <img src="https://www.shutterstock.com/image-photo/london-united-kingdom-october-17-600nw-2532098605.jpg"
+                width="200px">
+            <h2>Hi,&nbsp; I'm&nbsp; <b class="yellow">Harsh</b>&nbsp; &#128075</h2>
+            <p class="con">
+            <div>I'm&nbsp; a&nbsp; Computer&nbsp; Science&nbsp; student</div>
+            <div>and&nbsp; aspiring
+            </div>
+            <div class="futu">"Full&nbsp; Stack&nbsp; Developer".</div>
+            </p>
+
+        </main>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section>
+    <div id="about">
+
+        <h1>About Me &#128521;</h1>
+        <p class="con">My name is <b class="yellow">Harsh Raj</b></Harsh>, I'm passionate about <b>technology</b>,
+            <b>webDEV</b>, <b>softDEV</b>, <b>AI</b> and <br>continuous learning. <br><br> <br>
+            I've done my matriculate and intermediate from "<b>Manav Bharti National School</b>", Bihar in 2022,
+            2024 respectively. Currently I'm working as a student in "<b>Parul University</b>" <b>CSE</b> department
+            2025 (present) in Gujrat.
+        </p>
+    </div>
+</section>
+<br>
+
+<!-- PROJECTS -->
+<div id="projects">
+    <section>
+        <h1>My Projects 🚀</h1>
+        <p class="cont">Coming soon...🌟 </p>
+        <p class="cont">Coming soon...🌟 </p>
+        <p class="cont">Coming soon...🌟 </p>
+        <p class="cont">Coming soon...🌟 </p>
+    </section>
+</div>
+<br>
+
+<!-- CONTACT -->
+<div id="contact">
+    <section>
+        <h1>Contact Me <span>&#128383;</span> </h1>
+        <br>
+        <br>
+        <p class="con">Email: 📧 <a class="cont" href="mailto:harshrajactive@gmail.com">harshrajactive@gmail.com</a> </p>
+        <p class="con">LinkedIn: 🌐 <a class="cont" href=" https://www.linkedin.com/in/harsh-raj">
+                https://www.linkedin.com/in/harsh-raj</a></p>
+    </section>
+</div>
+<br>
+
+<!-- END -->
+<div class="end">
+    <section>
+        <p>MADE WITH LOVE and PATIENCE❤️</p>
+        <p>Under the guidance of AliAsgar Jiwani sir🔥😊</p>
+    </section>
+</div>
+</body>
+
+</html>
